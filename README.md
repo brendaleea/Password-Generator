@@ -9,6 +9,9 @@ This application generates random passwords based on the user specific needs. Th
 ## Visuals
 
 ![Password Generator](./Images/PW%20Generator%20screenshot.png)
+Link to deployed website:
+https://brendaleea.github.io/Password-Generator/
+
 
 ## Installation
 This project was created using html/css/javascript
