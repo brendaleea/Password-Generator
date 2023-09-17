@@ -7,11 +7,27 @@ var numberArr = ["1", "2", "3", "4", "5", "6", "7", "8", "9","0"];
 var specialCharArr = ["!", "@", "#", "$", "%", "^", "&", "*", "+", "-", ".", "`", "~", "<", ">", "=", "-", "_"];
 
 
+var generateBtn = document.querySelector("#generate");
 
 
+function writePassword() {
+  var correctPrompts = getPrompts();
+  var passwordText = document.querySelector("#password");
+  console.log(correctPrompts, choiceArr);
+  
 
 
+  if (correctPrompts) {
+    var newPassword = generatePassword();
+    var passwordText = document.querySelector("#password");
 
+    passwordText.value = newPassword;
+
+  } else {
+    passwordTest.value = "";
+  }
+
+}
 
 
 function generatePassword() {
@@ -26,6 +42,7 @@ function generatePassword() {
   
 
 }
+
 
 
  
