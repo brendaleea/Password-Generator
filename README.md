@@ -8,7 +8,7 @@ This application generates random passwords based on the user specific needs. Th
 
 ## Visuals
 
-
+![Password Generator](./Images/PW%20Generator%20screenshot.png)
 
 ## Installation
 This project was created using html/css/javascript
